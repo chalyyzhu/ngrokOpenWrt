@@ -26,7 +26,7 @@ start_service() {
         rm $screen_file 
         echo "Delete screen $screen_file.." 
     fi
-    screen -dmS $screen_name -L -Logfile $screen_file ngrok start --all  --config=CONFIG_PATH
+    screen -dmS $screen_name -L -Logfile $screen_file ngrok start --all  --config=$CONFIG_PATH
     echo  "NGROK SERVICE RUNING...."
 }
 
