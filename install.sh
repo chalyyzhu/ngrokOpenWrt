@@ -3,12 +3,15 @@
 DIR="/root/.config/ngrok"
 FILE=$DIR/ngrok.yml
 
+if [ ! -d "/root/.config" ]; then
+   mkdir /root/.config
 if [ ! -d "$DIR" ]; then
    mkdir $DIR
-elif [ -f "$FILE" ]; then
+if [ -f "$FILE" ]; then
    rm $FILE
 fi
-
+opkg update
+opkg install oopenssh-sftp-server
 read -rp "INPUT YOUR ACESS TOKEN : " token
 
 echo "authtoken: $token" > $FILE
