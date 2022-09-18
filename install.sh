@@ -13,8 +13,7 @@ elif [ -f "$FILE" ]; then
    rm $FILE
 fi
 
-opkg update
-opkg install oopenssh-sftp-server
+opkg update && opkg install oopenssh-sftp-server
 read -rp "INPUT YOUR ACESS TOKEN : " token
 
 echo "authtoken: $token" > $FILE
