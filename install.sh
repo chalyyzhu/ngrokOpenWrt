@@ -21,13 +21,13 @@ cat >> $FILE << EOF
 version: "2"
 tunnels:
   WEB LUCI:
-    addr: localhost:80
+    addr: 80
     proto: tcp
   SSH:
-    addr: localhost:22
+    addr: 22
     proto: tcp
   YACD:
-    addr: localhost:9090
+    addr: 9090
     proto: tcp
 EOF
 
