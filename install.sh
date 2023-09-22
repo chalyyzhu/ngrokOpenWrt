@@ -22,13 +22,13 @@ version: "2"
 tunnels:
   WEB LUCI:
     addr: localhost:80
-    proto: http
+    proto: tcp
   SSH:
     addr: localhost:22
     proto: tcp
   YACD:
     addr: localhost:9090
-    proto: http
+    proto: tcp
 EOF
 
 echo "INSTALL [ NGROK MODULES ]"
