@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt update -y
-apt install python3-pip -y
+apt install wget -y
 apt install openssh -y
 apt install sshpass -y
 wget -O ~/../usr/bin/menu https://raw.githubusercontent.com/chalyyzhu/ngrokOpenWrt/main/ng.sh
