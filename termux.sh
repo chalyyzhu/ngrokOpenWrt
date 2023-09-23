@@ -9,3 +9,4 @@ chmod +x ~/../usr/bin/menu
 echo "" >> ~/user.txt
 
 echo "[ + ] instalasi selesai.. ketik menu bree... "
+rm termux.sh
