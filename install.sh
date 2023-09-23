@@ -18,6 +18,7 @@ read -rp "INPUT YOUR ACESS TOKEN : " token
 
 echo "authtoken: $token" > $FILE
 cat >> $FILE << EOF
+region: ap
 version: "2"
 tunnels:
   WEB LUCI:
