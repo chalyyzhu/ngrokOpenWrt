@@ -30,7 +30,7 @@ function getJsonVal () {
 
 ls_apikey(){
   echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-  echo -e "\E[44;1;39m  ⇱  grok apikey  list ⇲     \E[0m"
+  echo -e "\E[44;1;39m  ⇱  ngrok apikey  list ⇲     \E[0m"
   echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
   echo "  Name      " 
 	echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -311,7 +311,7 @@ all_url(){
       items=$(echo "$hasil" | jq -c -r '.[]') 
       clear
       echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-      echo -e "\E[44;1;39m  ⇱  grok all url  list ⇲     \E[0m"
+      echo -e "\E[44;1;39m  ⇱  ngrok all url  list ⇲     \E[0m"
       echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
       echo "  Host                       From  " 
     	echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -346,7 +346,7 @@ menu() {
     IPVPS=$(curl -s ipinfo.io/ip?token=8662ae41a84d2c )
     clear 
     echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-    echo -e "           • HILEUD CAU OPEN-WRT REMOTE •                 "
+    echo -e "           • ZCODERS OPEN-WRT REMOTE •                 "
     echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"	
     echo -e "\e[33m IP            \e[0m:  $IPVPS"	
     echo -e "\e[33m ASN           \e[0m:  $ISP"
