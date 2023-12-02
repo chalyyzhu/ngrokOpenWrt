@@ -346,7 +346,7 @@ menu() {
     IPVPS=$(curl -s ipinfo.io/ip?token=8662ae41a84d2c )
     clear 
     echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-    echo -e "           • ZCODERS OPEN-WRT REMOTE •                 "
+    echo -e "             • ZCODERS OPEN-WRT REMOTE •                 "
     echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"	
     echo -e "\e[33m IP            \e[0m:  $IPVPS"	
     echo -e "\e[33m ASN           \e[0m:  $ISP"
